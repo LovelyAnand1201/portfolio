@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* .container{ */
+    /* display: flex; */
+/* } */
+/* .menu1{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px;
+    background-color: rgb(14, 14, 31);
+} */
+ body{
+    background-color: rgb(14, 14, 31);
+
+ }
+.menu{
+    width: 100vw;
+    height: 100%;
+    padding-top: 10vh;
+    background-color: rgb(14, 14, 31);
+    /* position: fixed; */
+}
+.border-div{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    border-radius: 100px;
+    background-color: rgb(27, 27, 49);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.photo{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.mypic{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.contactb{
+    padding-top: 15px;
+}
+.btn{
+    background-color: rgb(14, 14, 31);
+    color: antiquewhite;
+    border: none;
+    outline: none;
+    padding: 5% 8%;
+    border-radius: 30px;
+    font-weight: 700px;
+    font-size: 18px;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.name{
+    text-align: center;
+    color: white;
+    font-size:14px;
+    font-weight: bolder;
+}
+.nav{
+    text-align: center;
+    margin-top: 40px;
+}
+.nav-items{
+    padding: 4%;
+    width: 60%;
+    margin: 6% auto;
+    background-color:rgb(27, 27, 49);
+    border-radius: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.mbtn{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: larger;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 10%;
+    top: 10%;
+    width: 80%; 
+    height: 80%;
+    overflow: scroll; 
+    /* background-color: rgb(0,0,0);  */
+    background-color: rgb(211, 210, 230);
+    border-radius: 10px;
+    /* background-color: rgba(0,0,0,0.4);  */
+  }
+.modal.active{
+    display: block;
+}
+.close {
+    /* color: ; */
+    /* float: right; */
+    /* width: 20px; */
+    background-color: rgb(188, 8, 8);
+    color: aliceblue;
+    font-size: 33px;
+    font-weight: bold;
+    position: fixed;
+    /* z-index: -1;  */
+    top: 30px;
+    right: 40px;
+    width: 30px;
+    text-align: center;
+    /* color: red; */
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.about{
+    width: 80vw;
+    height: 80vh;
+    padding: 7% 10%;
+    display: flex; 
+    align-items: center;
+
+    /* background-color: rgb(230, 215, 194); */
+
+    /* flex-direction: column; */
+}
+/* .introduction{
+    padding: 0 10px;
+} */
+.intro {
+    margin-top: 12%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 1.4rem;
+    /* margin: 5% 0; */
+}
+.des{
+    /* background-color: blueviolet; */
+    width: 100%;
+    font-size: 1rem;
+    /* font-family:cursive; */
+}
+.edu{
+    width: 80vw;
+    height: 80vh;
+    padding: 40px 8%;
+    /* background-color: rgb(230, 215, 194); */
+    display: flex; 
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.edu_head{
+    margin: 0 3%;
+    font-size: 1.4rem;
+}
+.edu_list{
+    width: 100%;
+    margin: 9% 2%;
+    font-size: 1rem;
+    /* background-color: brown; */
+}
+
+.skill{
+    /* width: 80vw; */
+    /* height: 80vh; */
+    padding: 7%;
+}
+.skill_head{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+.skill_item h3{
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1rem;
+}
+.skill_item{
+    margin: 10% 3%;
+    font-size: 0.9rem;
+}
+.main{
+    /* width: 20%; */
+    /* height: 80%; */
+    margin: 50px 18px;
+}
+.box{
+    width: 95%;
+    height: 95%;
+    /* background-color: blue; */
+    margin: 9% 2%;
+    /* margin-bottom: 18%; */
+    padding: 2%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    margin: 5% 0;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.prev{
+    width: 80px;
+    margin: auto;
+    /* background-color: blue; */
+    padding: 0;
+}
+.prev button{
+    background-color: rgb(14, 14, 31);
+    color: antiquewhite;
+    border: none;
+    outline: none;
+    padding: 5% 8%;
+    border-radius: 30px;
+    font-weight: 700px;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+}
+.phead h1{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.4rem;
+}
+.head h2{
+    font-size: 1rem;
+}
